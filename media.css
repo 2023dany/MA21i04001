@@ -1,0 +1,55 @@
+
+ @media only screen and (max-width: 1024px){
+
+ }
+ 
+  @media only screen and (max-width: 920px){
+     #cabecera{
+         flex-direction: column;
+     }
+     #logo{
+         width: 100%;
+     }
+     #logo img{
+        display: block;
+        margin: auto;
+     }
+
+     .menu
+     {
+        position: absolute;
+        width: 100%; 
+        top: 100%;
+        left: 0;
+        transform: translateX(-100%);
+        
+        
+     }
+     #mmovil{
+         display: block;
+     }
+     .menu ul{
+         flex-direction: column;
+         background: #d1220b;
+     }
+     .menu a{
+         line-height: 45px;
+         padding: 0 20px;
+         border-bottom: 1px solid #ee120a;
+     }
+     #btn-menu:checked ~ .menu{
+         transform: translateX(0%);
+         transition: all 0.6s; 
+     }
+     .inicio{
+         height: 620px;
+     }
+  }
+ 
+ @media only screen and (max-width: 603px){
+ 
+ }
+
+  @media only screen and (max-width: 533px){
+ 
+  }
